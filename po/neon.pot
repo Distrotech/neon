@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: neon@lists.manyfish.co.uk\n"
-"POT-Creation-Date: 2010-10-01 13:30+0100\n"
+"POT-Creation-Date: 2013-06-14 11:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,107 +24,112 @@ msgid ""
 "Status line was: %s"
 msgstr ""
 
-#: src/ne_auth.c:134
+#: src/ne_auth.c:139
 #, c-format
 msgid "Could not authenticate to server: %s"
 msgstr ""
 
-#: src/ne_auth.c:139
+#: src/ne_auth.c:144
 #, c-format
 msgid "Could not authenticate to proxy server: %s"
 msgstr ""
 
-#: src/ne_auth.c:374
+#: src/ne_auth.c:383
 #, c-format
 msgid "rejected %s challenge"
 msgstr ""
 
-#: src/ne_auth.c:390
+#: src/ne_auth.c:399
 msgid "missing realm in Basic challenge"
 msgstr ""
 
-#: src/ne_auth.c:485
+#: src/ne_auth.c:494
 msgid "invalid Negotiate token"
 msgstr ""
 
-#: src/ne_auth.c:508
+#: src/ne_auth.c:517
 msgid "GSSAPI authentication error: "
 msgstr ""
 
-#: src/ne_auth.c:521
+#: src/ne_auth.c:530
 #, c-format
 msgid "GSSAPI failure (code %u)"
 msgstr ""
 
-#: src/ne_auth.c:556
+#: src/ne_auth.c:565
 msgid "ignoring empty Negotiate continuation"
 msgstr ""
 
-#: src/ne_auth.c:571
+#: src/ne_auth.c:580
 #, c-format
 msgid "Negotiate response verification failed: invalid response header token"
 msgstr ""
 
-#: src/ne_auth.c:593
+#: src/ne_auth.c:602
 #, c-format
 msgid "Negotiate response verification failure: %s"
 msgstr ""
 
-#: src/ne_auth.c:765
+#: src/ne_auth.c:673
+#, c-format
+msgid "SSPI response verification failed: invalid response header token"
+msgstr ""
+
+#: src/ne_auth.c:806
 msgid "unknown algorithm in Digest challenge"
 msgstr ""
 
-#: src/ne_auth.c:769
+#: src/ne_auth.c:810
 msgid "incompatible algorithm in Digest challenge"
 msgstr ""
 
-#: src/ne_auth.c:773
+#: src/ne_auth.c:814
 msgid "missing parameter in Digest challenge"
 msgstr ""
 
-#: src/ne_auth.c:777
+#: src/ne_auth.c:818
 msgid "initial Digest challenge was stale"
 msgstr ""
 
-#: src/ne_auth.c:784
+#: src/ne_auth.c:825
 msgid "stale Digest challenge with new algorithm or realm"
 msgstr ""
 
-#: src/ne_auth.c:796
+#: src/ne_auth.c:837
 msgid "could not parse domain in Digest challenge"
 msgstr ""
 
-#: src/ne_auth.c:1105
+#: src/ne_auth.c:1146
 #, c-format
 msgid "Digest mutual authentication failure: missing parameters"
 msgstr ""
 
-#: src/ne_auth.c:1110
+#: src/ne_auth.c:1151
 #, c-format
 msgid "Digest mutual authentication failure: client nonce mismatch"
 msgstr ""
 
-#: src/ne_auth.c:1120
+#: src/ne_auth.c:1161
 #, c-format
 msgid "Digest mutual authentication failure: could not parse nonce count"
 msgstr ""
 
-#: src/ne_auth.c:1125
+#: src/ne_auth.c:1166
 #, c-format
 msgid "Digest mutual authentication failure: nonce count mismatch (%u not %u)"
 msgstr ""
 
-#: src/ne_auth.c:1168
+#: src/ne_auth.c:1209
 #, c-format
 msgid "Digest mutual authentication failure: request-digest mismatch"
 msgstr ""
 
-#: src/ne_auth.c:1299
+#: src/ne_auth.c:1340
 #, c-format
 msgid "ignored %s challenge"
 msgstr ""
 
-#: src/ne_auth.c:1378
+#: src/ne_auth.c:1419
 msgid "could not parse challenge"
 msgstr ""
 
@@ -160,50 +166,50 @@ msgstr ""
 msgid "Could not initialize zlib"
 msgstr ""
 
-#: src/ne_gnutls.c:172
+#: src/ne_gnutls.c:176
 #, c-format
 msgid "[unprintable:#%lu]"
 msgstr ""
 
-#: src/ne_gnutls.c:201
+#: src/ne_gnutls.c:205
 msgid "[unprintable]"
 msgstr ""
 
-#: src/ne_gnutls.c:817
+#: src/ne_gnutls.c:823
 msgid "signed using insecure algorithm"
 msgstr ""
 
-#: src/ne_gnutls.c:820
+#: src/ne_gnutls.c:826
 #, c-format
 msgid "unrecognized errors (%u)"
 msgstr ""
 
-#: src/ne_gnutls.c:865 src/ne_openssl.c:468
+#: src/ne_gnutls.c:871 src/ne_openssl.c:468
 #, c-format
 msgid "Server certificate was missing commonName attribute in subject name"
 msgstr ""
 
-#: src/ne_gnutls.c:879
+#: src/ne_gnutls.c:885
 #, c-format
 msgid "Could not verify server certificate: %s"
 msgstr ""
 
-#: src/ne_gnutls.c:891 src/ne_openssl.c:455
+#: src/ne_gnutls.c:897 src/ne_openssl.c:455
 #, c-format
 msgid "Certificate verification error: %s"
 msgstr ""
 
-#: src/ne_gnutls.c:924 src/ne_openssl.c:674
+#: src/ne_gnutls.c:930 src/ne_openssl.c:674
 #, c-format
 msgid "SSL handshake failed, client certificate was requested: %s"
 msgstr ""
 
-#: src/ne_gnutls.c:929 src/ne_openssl.c:679
+#: src/ne_gnutls.c:935 src/ne_openssl.c:679
 #, c-format
 msgid "SSL handshake failed: %s"
 msgstr ""
 
-#: src/ne_gnutls.c:939
+#: src/ne_gnutls.c:945
 #, c-format
 msgid "Server did not send certificate chain"
 msgstr ""

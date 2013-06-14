@@ -174,7 +174,7 @@ fi
 ALL_LINGUAS="cs de fr ja nn pl ru tr zh_CN"
 AC_SUBST(ALL_LINGUAS)
 
-AC_CONFIG_FILES([neon-config], [chmod +x neon-config])
+AC_CONFIG_FILES([neon-config po/Makefile.in], [chmod +x neon-config])
 AC_CONFIG_FILES([Makefile src/Makefile test/Makefile neon.pc])
 AC_CONFIG_FILES([test/makekeys:test/makekeys.sh], [chmod +x test/makekeys])
 
